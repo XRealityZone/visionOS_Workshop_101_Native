@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2021A7A2C47B7E20033EFCB /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C2021A792C47B7E20033EFCB /* RealityKitContent */; };
+		C2021A7C2C47B7E20033EFCB /* PlaneDetectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2021A7B2C47B7E20033EFCB /* PlaneDetectApp.swift */; };
+		C2021A7E2C47B7E20033EFCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2021A7D2C47B7E20033EFCB /* ContentView.swift */; };
+		C2021A802C47B7E20033EFCB /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2021A7F2C47B7E20033EFCB /* AppModel.swift */; };
+		C2021A822C47B7E20033EFCB /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2021A812C47B7E20033EFCB /* ToggleImmersiveSpaceButton.swift */; };
+		C2021A842C47B7E20033EFCB /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2021A832C47B7E20033EFCB /* ImmersiveView.swift */; };
+		C2021A862C47B7E50033EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2021A852C47B7E50033EFCB /* Assets.xcassets */; };
+		C2021A892C47B7E50033EFCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2021A882C47B7E50033EFCB /* Preview Assets.xcassets */; };
+		C2021A942C47B7E50033EFCB /* PlaneDetectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2021A932C47B7E50033EFCB /* PlaneDetectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2021A902C47B7E50033EFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2021A6C2C47B7E20033EFCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2021A732C47B7E20033EFCB;
+			remoteInfo = PlaneDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2021A742C47B7E20033EFCB /* PlaneDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaneDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2021A782C47B7E20033EFCB /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C2021A7B2C47B7E20033EFCB /* PlaneDetectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectApp.swift; sourceTree = "<group>"; };
+		C2021A7D2C47B7E20033EFCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2021A7F2C47B7E20033EFCB /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C2021A812C47B7E20033EFCB /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
+		C2021A832C47B7E20033EFCB /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		C2021A852C47B7E50033EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2021A882C47B7E50033EFCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2021A8A2C47B7E50033EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2021A8F2C47B7E50033EFCB /* PlaneDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2021A932C47B7E50033EFCB /* PlaneDetectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2021A712C47B7E20033EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2021A7A2C47B7E20033EFCB /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2021A8C2C47B7E50033EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2021A6B2C47B7E20033EFCB = {
+			isa = PBXGroup;
+			children = (
+				C2021A762C47B7E20033EFCB /* PlaneDetect */,
+				C2021A772C47B7E20033EFCB /* Packages */,
+				C2021A922C47B7E50033EFCB /* PlaneDetectTests */,
+				C2021A752C47B7E20033EFCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2021A752C47B7E20033EFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2021A742C47B7E20033EFCB /* PlaneDetect.app */,
+				C2021A8F2C47B7E50033EFCB /* PlaneDetectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2021A762C47B7E20033EFCB /* PlaneDetect */ = {
+			isa = PBXGroup;
+			children = (
+				C2021A7B2C47B7E20033EFCB /* PlaneDetectApp.swift */,
+				C2021A7D2C47B7E20033EFCB /* ContentView.swift */,
+				C2021A7F2C47B7E20033EFCB /* AppModel.swift */,
+				C2021A812C47B7E20033EFCB /* ToggleImmersiveSpaceButton.swift */,
+				C2021A832C47B7E20033EFCB /* ImmersiveView.swift */,
+				C2021A852C47B7E50033EFCB /* Assets.xcassets */,
+				C2021A8A2C47B7E50033EFCB /* Info.plist */,
+				C2021A872C47B7E50033EFCB /* Preview Content */,
+			);
+			path = PlaneDetect;
+			sourceTree = "<group>";
+		};
+		C2021A772C47B7E20033EFCB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C2021A782C47B7E20033EFCB /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C2021A872C47B7E50033EFCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2021A882C47B7E50033EFCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2021A922C47B7E50033EFCB /* PlaneDetectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2021A932C47B7E50033EFCB /* PlaneDetectTests.swift */,
+			);
+			path = PlaneDetectTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2021A732C47B7E20033EFCB /* PlaneDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2021A972C47B7E50033EFCB /* Build configuration list for PBXNativeTarget "PlaneDetect" */;
+			buildPhases = (
+				C2021A702C47B7E20033EFCB /* Sources */,
+				C2021A712C47B7E20033EFCB /* Frameworks */,
+				C2021A722C47B7E20033EFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaneDetect;
+			packageProductDependencies = (
+				C2021A792C47B7E20033EFCB /* RealityKitContent */,
+			);
+			productName = PlaneDetect;
+			productReference = C2021A742C47B7E20033EFCB /* PlaneDetect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2021A8E2C47B7E50033EFCB /* PlaneDetectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2021A9A2C47B7E50033EFCB /* Build configuration list for PBXNativeTarget "PlaneDetectTests" */;
+			buildPhases = (
+				C2021A8B2C47B7E50033EFCB /* Sources */,
+				C2021A8C2C47B7E50033EFCB /* Frameworks */,
+				C2021A8D2C47B7E50033EFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2021A912C47B7E50033EFCB /* PBXTargetDependency */,
+			);
+			name = PlaneDetectTests;
+			productName = PlaneDetectTests;
+			productReference = C2021A8F2C47B7E50033EFCB /* PlaneDetectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2021A6C2C47B7E20033EFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C2021A732C47B7E20033EFCB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C2021A8E2C47B7E50033EFCB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C2021A732C47B7E20033EFCB;
+					};
+				};
+			};
+			buildConfigurationList = C2021A6F2C47B7E20033EFCB /* Build configuration list for PBXProject "PlaneDetect" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2021A6B2C47B7E20033EFCB;
+			productRefGroup = C2021A752C47B7E20033EFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2021A732C47B7E20033EFCB /* PlaneDetect */,
+				C2021A8E2C47B7E50033EFCB /* PlaneDetectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2021A722C47B7E20033EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2021A892C47B7E50033EFCB /* Preview Assets.xcassets in Resources */,
+				C2021A862C47B7E50033EFCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2021A8D2C47B7E50033EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2021A702C47B7E20033EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2021A822C47B7E20033EFCB /* ToggleImmersiveSpaceButton.swift in Sources */,
+				C2021A7E2C47B7E20033EFCB /* ContentView.swift in Sources */,
+				C2021A842C47B7E20033EFCB /* ImmersiveView.swift in Sources */,
+				C2021A802C47B7E20033EFCB /* AppModel.swift in Sources */,
+				C2021A7C2C47B7E20033EFCB /* PlaneDetectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2021A8B2C47B7E50033EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2021A942C47B7E50033EFCB /* PlaneDetectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2021A912C47B7E50033EFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2021A732C47B7E20033EFCB /* PlaneDetect */;
+			targetProxy = C2021A902C47B7E50033EFCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2021A952C47B7E50033EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C2021A962C47B7E50033EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C2021A982C47B7E50033EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlaneDetect/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KVRUJ2FNN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.xuchi.PlaneDetect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		C2021A992C47B7E50033EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlaneDetect/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KVRUJ2FNN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.xuchi.PlaneDetect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		C2021A9B2C47B7E50033EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KVRUJ2FNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.xuchi.PlaneDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaneDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlaneDetect";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C2021A9C2C47B7E50033EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KVRUJ2FNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.xuchi.PlaneDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaneDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlaneDetect";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2021A6F2C47B7E20033EFCB /* Build configuration list for PBXProject "PlaneDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2021A952C47B7E50033EFCB /* Debug */,
+				C2021A962C47B7E50033EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2021A972C47B7E50033EFCB /* Build configuration list for PBXNativeTarget "PlaneDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2021A982C47B7E50033EFCB /* Debug */,
+				C2021A992C47B7E50033EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2021A9A2C47B7E50033EFCB /* Build configuration list for PBXNativeTarget "PlaneDetectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2021A9B2C47B7E50033EFCB /* Debug */,
+				C2021A9C2C47B7E50033EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2021A792C47B7E20033EFCB /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C2021A6C2C47B7E20033EFCB /* Project object */;
+}
